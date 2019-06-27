@@ -15,7 +15,7 @@
 	var candidates_all=[];
 	for (var n0 = 123; n0 <= 987; n0++) {
 		var n = ('0'+n0).substr(-3), valid = true;
-		for (var i = 0; i < 3; i++) {
+		for (var i = 0; i < 4; i++) {
 			var c = n.charAt(i);
 			if (n.indexOf(c) != n.lastIndexOf(c)) {
 				valid = false;
